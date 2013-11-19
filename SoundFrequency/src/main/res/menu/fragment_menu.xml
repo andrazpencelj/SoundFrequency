@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_measurement"
+        android:title="@string/db_unit"
+        android:icon="@drawable/db"
+        app:showAsAction="always"/>
+
+</menu>

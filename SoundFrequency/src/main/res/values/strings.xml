@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SoundFrequency</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_help">Help</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="no_data">0</string>
+    <string name="frequency_unit">Hz</string>
+    <string name="no_db">0</string>
+    <string name="db_unit">dB</string>
+    <string name="help_title">About application</string>
+    <string name="help_main_content">This application measures sound frequency and sound presure level in sound captured by in device bulit microphone. Frequencies are measured in hertz (Hz) and sound pressure level in decibels (dB)</string>
+    <string name="help_subtitle">How to use it</string>
+    <string name="help_how_to">Press on the screen and application will start to measure sound frequency. For measure decibels click in icon dB in action bar.</string>
+
+</resources>

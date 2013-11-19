@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+
+        <RelativeLayout
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+        <TextView
+            android:id="@+id/help_title"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dip"
+            android:textSize="25dip"
+            android:textColor="#26150e"
+            android:text="@string/help_title"/>
+
+        <TextView
+            android:id="@+id/help_content"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_below="@+id/help_title"
+            android:gravity="center_horizontal"
+            android:padding="20dip"
+            android:textSize="20dip"
+            android:textColor="#3b3b3b"
+            android:text="@string/help_main_content"/>
+
+        <TextView
+            android:id="@+id/help_subtitle"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/help_content"
+            android:layout_marginTop="15dip"
+            android:textSize="22dip"
+            android:textColor="#26150e"
+            android:text="@string/help_subtitle"/>
+
+        <TextView
+            android:id="@+id/help_how_to"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_below="@+id/help_subtitle"
+            android:gravity="center_horizontal"
+            android:padding="20dip"
+            android:textSize="20dip"
+            android:textColor="#3b3b3b"
+            android:text="@string/help_how_to"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
